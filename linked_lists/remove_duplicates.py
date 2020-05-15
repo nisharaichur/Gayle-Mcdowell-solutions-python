@@ -42,8 +42,6 @@ class SingleLinkedList():
 
 if __name__ == '__main__':
 	linked_list = SingleLinkedList()
-	elements = [1, 2, 3, 2, 4, 55, 2, 1, 5, 8]
-	for i in elements:
-	    linked_list.add_data(i)
+	linked_list.add_data()#add the data values using this
 	linked_list.remove_duplicates()
 	linked_list.print_data_vals()
